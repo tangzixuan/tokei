@@ -333,6 +333,7 @@ Ada
 Agda
 Alex
 Alloy
+APL
 Asn1
 Asp
 AspNet
@@ -349,6 +350,7 @@ Bazel
 Bean
 Bicep
 Bitbake
+BQN
 BrightScript
 C
 Cabal
@@ -424,6 +426,7 @@ Haskell
 Haxe
 Hcl
 Hex
+HiCAD
 hledger
 Hlsl
 HolyC
@@ -484,6 +487,7 @@ Pascal
 Perl
 Perl6
 Pest
+Phix
 Php
 Po
 Poke
@@ -497,6 +501,7 @@ Protobuf
 PRQL
 PSL
 PureScript
+Pyret
 Python
 Qcl
 Qml
@@ -531,8 +536,10 @@ Svg
 Swift
 Swig
 SystemVerilog
+Slint
 Tact
 Tcl
+Templ
 Tex
 Text
 Thrift

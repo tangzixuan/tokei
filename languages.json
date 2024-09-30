@@ -33,6 +33,12 @@
       "multi_line_comments": [["/*", "*/"]],
       "extensions": ["als"]
     },
+    "Apl": {
+      "name": "APL",
+      "line_comment": ["⍝"],
+      "extensions": ["apl", "aplf", "apls"],
+      "quotes": [["'", "'"]],
+    },
     "Arduino": {
       "name": "Arduino C++",
       "line_comment": ["//"],
@@ -162,6 +168,12 @@
       "line_comment": ["#"],
       "quotes": [["\\\"", "\\\""], ["'", "'"]],
       "extensions": ["bb", "bbclass", "bbappend", "inc", "conf"]
+    },
+    "Bqn": {
+      "name": "BQN",
+      "line_comment": ["#"],
+      "extensions": ["bqn"],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
     },
     "BrightScript": {
       "quotes": [["\\\"", "\\\""]],
@@ -598,6 +610,22 @@
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["gleam"]
     },
+    "GlimmerJs": {
+      "name": "Glimmer JS",
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"], ["<!--", "-->"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"], ["`", "`"]],
+      "important_syntax": ["<template", "<style"],
+      "extensions": ["gjs"]
+    },
+    "GlimmerTs": {
+      "name": "Glimmer TS",
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"], ["<!--", "-->"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"], ["`", "`"]],
+      "important_syntax": ["<template", "<style"],
+      "extensions": ["gts"]
+    },
     "Glsl": {
       "name": "GLSL",
       "line_comment": ["//"],
@@ -700,7 +728,7 @@
       "line_comment": ["//"],
       "multi_line_comments": [["/*", "*/"]],
       "quotes": [["\\\"", "\\\""]],
-      "extensions": ["hlsl"]
+      "extensions": ["hlsl", "fx", "fxsub"]
     },
     "HolyC": {
       "line_comment": ["//"],
@@ -990,7 +1018,7 @@
     "Makefile": {
       "line_comment": ["#"],
       "extensions": ["makefile", "mak", "mk"],
-      "filenames": ["makefile"]
+      "filenames": ["gnumakefile", "makefile"]
     },
     "Markdown": {
       "literate": true,
@@ -1058,7 +1086,7 @@
     "MoonBit": {
       "line_comment": ["//"],
       "quotes": [["\\\"", "\\\""]],
-      "extensions": ["mbt"]
+      "extensions": ["mbt", "mbti"]
     },
     "MoonScript": {
       "line_comment": ["--"],
@@ -1208,6 +1236,14 @@
       "quotes": [["\\\"", "\\\""], ["'", "'"]],
       "extensions": ["pest"]
     },
+    "Phix": {
+      "line_comment": ["--", "//", "#!"],
+      "multi_line_comments": [["/*", "*/"], ["--/*", "--*/"]],
+      "nested": true,
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "verbatim_quotes": [["\\\"\\\"\\\"", "\\\"\\\"\\\""], ["`", "`"]],
+      "extensions": ["e","exw"]
+    },
     "Php": {
       "name": "PHP",
       "line_comment": ["#", "//"],
@@ -1304,6 +1340,13 @@
       "line_comment": ["--"],
       "multi_line_comments": [["{-", "-}"]],
       "extensions": ["purs"]
+    },
+    "Pyret": {
+      "line_comment": ["#"],
+      "multi_line_comments": [["#|", "|#"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["arr"],
+      "nested": true
     },
     "Python": {
       "line_comment": ["#"],
@@ -1505,6 +1548,13 @@
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["shader", "cginc"]
     },
+    "SIL": {
+      "name": "SIL",
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"], ["/+", "+/"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"], ["`", "`"]],
+      "extensions": ["sil"]
+    },
     "Slang": {
       "name": "Slang",
       "line_comment": ["//"],
@@ -1626,6 +1676,12 @@
       "quotes": [["\\\"", "\\\""]],
       "extensions": ["sv", "svh"]
     },
+    "Slint": {
+      "line_comment": ["//"],
+      "multi_line_comments": [["/*", "*/"]],
+      "quotes": [["\\\"", "\\\""]],
+      "extensions": ["slint"]
+    },
     "Tact": {
       "line_comment": ["//"],
       "multi_line_comments": [["/*", "*/"]],
@@ -1642,6 +1698,14 @@
       "multi_line_comments": [["<!--", "-->"], ["{#", "#}"]],
       "quotes": [["\\\"", "\\\""], ["'", "'"]],
       "extensions": ["tera"]
+    },
+    "Templ": {
+      "name": "Templ",
+      "line_comment": ["//"],
+      "multi_line_comments": [["<!--", "-->"], ["/*", "*/"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"], ["`", "`"]],
+      "important_syntax": ["templ", "script", "css"],
+      "extensions": ["templ", "tmpl"]
     },
     "Tex": {
       "name": "TeX",
